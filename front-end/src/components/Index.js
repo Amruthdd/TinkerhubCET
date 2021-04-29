@@ -4,7 +4,6 @@ import Contact from './Contact';
 import CopyRight from './CopyRight';
 import Events from './Events';
 import Goals from './Goals';
-import Goals2 from './Goals2';
 import Home from './Home';
 import Initiative from './Initiative';
 import Learn from './Learn';
@@ -14,8 +13,7 @@ function Index(){
     return (
         <div className="index-main" >
             <Home/>
-            {/* <Goals/> */}
-            <Goals2/>
+            <Goals/>
             <Initiative/>
             <Events/>
             <Learn/>
