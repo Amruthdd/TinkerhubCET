@@ -196,8 +196,8 @@ background: #ffffff;
     position: relative;
 }
 .goal-vector img{
-    height: 55vh;
-    width: 45vw;
+    height: 50vh;
+    width: 40vw;
     position: relative;
    
 }
@@ -539,7 +539,7 @@ input[type=email], select, textarea {
     /* Goals */
     .goal-vector img{
         width: 80vw;
-        height: 75vw;
+        height: 65vw;
     
     }
     .box-container{
@@ -571,7 +571,7 @@ input[type=email], select, textarea {
     }
     .init-img-box img{
         width: 80vw;
-        height: 50vh;
+        height: 45vh;
         margin:0;
     }
     .page-title{
