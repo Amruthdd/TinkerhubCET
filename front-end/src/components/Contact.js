@@ -13,7 +13,7 @@ function Contact(){
                     </div>
                     <div className="col-xl-6 col-md-6 ">
                         <div className="msg-box">
-                            <form>
+                            <form action="https://formsubmit.co/tinkercet@gmail.com" method="POST">
                                 {/* <label for="fname">Name</label> */}
                                 <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
 
