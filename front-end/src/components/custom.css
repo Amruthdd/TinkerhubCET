@@ -6,6 +6,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .index-main{
+    overflow: hidden;
     width: 100vw;
 }
 
@@ -77,9 +78,8 @@ border-radius: 100%;
 top:30%;
 right:120px;
 background: #ffffff;
-
-
 }
+
 .round-ppl img{
     width: 425px;
     height: 430px;
@@ -330,13 +330,33 @@ background: #ffffff;
 .hide {
     display: none;
     width: 270px;
+    color: white;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #263238;
+  }
+  
+  .myDIV:hover .overlay {
+    border-radius: 15px;
+    opacity: 0.92;
+  }
       
-.myDIV:hover+ .hide {
+/* .myDIV:hover .hide {
     display: block;
     width: 270px;
-
-}
+    opacity: 1;
+    color: white;
+} */
 
 .menu-list {
     display: flex;
@@ -423,6 +443,7 @@ background: #ffffff;
     height: 400px;
     margin-bottom: 20px;
     padding-right: 10px;
+    cursor: pointer;
 }
 .st-btn{
     background-color: #fff;
@@ -598,6 +619,9 @@ input[type=email], select, textarea {
 /* Tablet */
 
 @media only screen and ( max-width: 1235px) {
+    .main-bg{
+        display: none;
+    }
     /* social */
     .social-main{
         width: 50px;
@@ -624,19 +648,20 @@ input[type=email], select, textarea {
         width: 40%;
     }
     .round-ppl{
-        position: absolute;
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    top:25%;
-    right:100px;
-    background: #ffffff;
-    
-    
+        margin-top: 60px;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        background: #ffffff;
     }
     .round-ppl img{
         width: 300px;
         height: 300px;
         border-radius: 100%;
+    }
+    .round-logo{
+        position: absolute;
+        left: 230px;
+        top: 0px;
     }
  }

@@ -5,10 +5,10 @@ import stim4 from "./images/sudev.jpeg";
 
 
 export const initData = [
-    {
-      title:"Setup Internships",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there.Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
-    },
+    // {
+    //   title:"Setup Internships",
+    //   desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there.Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+    // },
     {
       title:"Mentoring and support",
       desc:"Since we are an open community, the amount of mentorship that we can provide is something to be reckoned with. From junior and and final year students, to leading industry professionals, the network is strong and waiting for fresh talent."
@@ -61,7 +61,7 @@ export const initData = [
     {
       id:2,
       title:"Meet 2nd runnersup of ISQIP hackathon",
-      names:[" Vishnu, "," Abraham, "," sreenivas, "," Adwaith "],
+      names:[" Vishnu, "," Abraham, "," Sreenivas, "," Adwaith "],
       img:{stim2},
       desc:"'... Given the topic of ‘solving any socially relevant issue’, we chose to try and implement a link between food distributors and donors. We chose this because we truly believe in this idea and we felt we could implement it in an efficient and effective manner...'"
 
