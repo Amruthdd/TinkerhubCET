@@ -37,9 +37,13 @@ function Home(){
                     that it is a community for all, with absolutely<br/>
                     no barriers to entry.”
                 </div>
-                
-              
-                 
+                <a 
+                    href="https://tinyurl.com/tinkerhubcet" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="join-btn">
+                        Join Us
+                </a>     
             </div>
            
             

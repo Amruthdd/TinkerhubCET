@@ -16,6 +16,7 @@ body{
     font-weight: bold;
     color: #ffffff;
     padding-top: 20px;
+    
 }
 
 
@@ -106,6 +107,25 @@ background: #ffffff;
 
     position: absolute;
 }
+.join-btn{
+    position: absolute;
+    top:65%;
+    left: 20%;
+    background-color:  #dc3a2b;
+    color: #fff;
+    border-radius: 25px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    
+}
+.join-btn:hover{
+    background-color: #DF5042;
+    text-decoration: none;
+    color: #fff;
+}
 /* About Us */
 .about-main{
     background-color: #2a3d45;
@@ -168,7 +188,7 @@ background: #ffffff;
 }
 
 .under-line{
-    width: 50vw;
+    width: 40vw;
     height: 5px;
     background-color: #fff;
     margin-top: 10px;
@@ -182,6 +202,7 @@ background: #ffffff;
     font-weight: bold;
     margin-top: -19px;
     padding:0px 5px 0px 5px;
+    
 }
 .goal-box{
     display: flex;
@@ -536,6 +557,10 @@ input[type=email], select, textarea {
         
         width: 60%;
     }
+    .join-btn{
+        top:72%;
+        left: 30%;
+    }
     .round-ppl{
         position: absolute;
     width: 250px;
@@ -567,6 +592,9 @@ input[type=email], select, textarea {
 
         margin-top: 30px;
         padding-left: 40px;
+    }
+    .under-line{
+        width: 50vw;
     }
     /* social */
     .social-main{
@@ -644,7 +672,6 @@ input[type=email], select, textarea {
         font-size: 15px;
         bottom:30%;
         left:14%;
-        
         width: 40%;
     }
     .round-ppl{
