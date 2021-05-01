@@ -2,6 +2,7 @@ import stim1 from "./images/hackthon_1.jpeg";
 import stim2 from "./images/hackthon_2.jpeg";
 import stim3 from "./images/vishnu.jpeg";
 import stim4 from "./images/sudev.jpeg";
+import stim5 from "./images/nandanasree.jpeg";
 
 
 export const initData = [
@@ -79,7 +80,15 @@ export const initData = [
       title:"Meet Microsoft Learn Campus Ambassador",
       names:[" Sudev Suresh Sreedevi "],
       img:{stim4},
-      desc:"... Staying curious of emerging technologies and trying my best to keep up with it, without losing passion, really helped me to achieve this. The selection process required me to have a mindset to share and spread knowledge, and it really tested my passion. The program did consider my GitHub, LinkedIn, Tech Blogs I wrote and other social media accounts. Every small project, no matter how small or silly (as it may seem to us) actually counts as an effort we are putting to learn better things...."
+      desc:"'... Staying curious of emerging technologies and trying my best to keep up with it, without losing passion, really helped me to achieve this. The selection process required me to have a mindset to share and spread knowledge, and it really tested my passion. The program did consider my GitHub, LinkedIn, Tech Blogs I wrote and other social media accounts. Every small project, no matter how small or silly (as it may seem to us) actually counts as an effort we are putting to learn better things...'"
+
+    },
+    {
+      id:5,
+      title:"Meet intern at purplle.com",
+      names:[" Nandana Sreeraj "],
+      img:{stim5},
+      desc:"'... During the first 3 semesters of my CS engineering, I had no idea about what Machine Learning or Web development was. The turnover in my life was lockdown.   Slowly, I started liking programming. I started learning machine learning on my own...'"
 
     }
   ]
