@@ -31,7 +31,7 @@ function Initiative(){
                             
                             {initData.map((data, key) => {
                                 return(
-                                    <div className="col-sm" key={key} data-aos={"fade-right"}>
+                                    <div className="col-xl-4 col-md-6 col-sm-12" key={key} data-aos={"fade-right"}>
                                         <div className="rect-box">
                                             <h4 className="font-weight-bold">{data.title}</h4>
                                             <div>

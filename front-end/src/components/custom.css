@@ -307,14 +307,17 @@ background: #ffffff;
     justify-content: center;
 
 }
+.poster{
+    width: 300px;
+    height: 300px;
+}
 .carou-col{
     display: flex;
     flex-direction: row;
 }
 .caro-arrow{
     position: relative;
-    align-self: center;
-    
+    align-self: center;  
 }
 .car-a{
     font-size: 80px;
@@ -324,6 +327,7 @@ background: #ffffff;
 .car-box{
     /* background: rgba(196, 196, 196, 0.5);
     border-radius: 20px; */
+    margin: 2% 0;
     padding: 30px 10px;
     color: #1C5663;      
 }
@@ -629,9 +633,21 @@ input[type=email], select, textarea {
     }
     /* Events */
     .car-box{
-       
         font-size: 0.8em;
     }
+    .car-inn{
+        height: 83vw;
+        
+        
+    }
+    .dis-non{
+        display: none;
+    }
+    .poster{
+        width: 60vw;
+        height: 65vw;
+    }
+   
     /* Contacts */
     .contact-img{
         width: 80vw;

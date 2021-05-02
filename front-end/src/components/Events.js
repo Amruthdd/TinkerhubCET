@@ -1,5 +1,6 @@
 import React from 'react';
 import {eventData} from './data';
+import p1 from './images/p1.jpeg';
 
 function Events(){
     return (
@@ -20,27 +21,48 @@ function Events(){
                                 {eventData.map((data,key) => {
                                     return(
                                         <div class="carousel-item  car-box" key={key}>
-                                            <h4 className="font-weight-bold">{data.title}</h4>
-                                            <div className="d-block w-100">
-                                            {data.desc}
+                                            
+                                                <div className="row" style={{padding:0}}>
+                                                    <div className="col-xl-4 col-md-6">
+                                                        <img src={p1} alt="p1" className="poster"></img>
+                                                    </div>
+                                                    <div className="col-xl-8 col-md-6 dis-non">
+                                                        <h4 className="font-weight-bold">{data.title}</h4>
+                                                        <div className="d-block w-100">
+                                                            {data.desc}
+                                                        </div>
+                                                    </div>
+                                                
+
                                             </div>
+                                            
                                     {/* <img class="d-block w-100" src="..." alt="First slide"></img> */}
                                 </div>
                                     )
                                 })}
                                 <div class="carousel-item active car-box" >
-                                            <h4 className="font-weight-bold">Tech Bites</h4>
-                                            <div className="d-block w-100">
-                                                Being a community driven platform, anyone 
-                                                from anywhere will be exposed to all the internship opportunities that are out there.
-                                                Organisations can use it as a platform to see the students in all 
-                                                their merit, and choose 
-                                                to reward those who they see worthy.Being a community driven platform, anyone 
-                                                from anywhere will be exposed to all the internship opportunities that are out there.
-                                                Organisations can use it as a platform to see the students in all 
-                                                their merit, and choose 
-                                                to reward those who they see worthy.
+                                   
+                                        <div className="row">
+                                            <div className="col-xl-4 col-md-6">
+                                                <img src={p1} alt="p1" className="poster"></img>
                                             </div>
+                                            <div className="col-xl-8 col-md-6 dis-non">
+                                                <h4 className="font-weight-bold">Tech Bites</h4>
+                                                <div className="d-block w-100">
+                                                    Being a community driven platform, anyone 
+                                                    from anywhere will be exposed to all the internship opportunities that are out there.
+                                                    Organisations can use it as a platform to see the students in all 
+                                                    their merit, and choose 
+                                                    to reward those who they see worthy.Being a community driven platform, anyone 
+                                                    from anywhere will be exposed to all the internship opportunities that are out there.
+                                                    Organisations can use it as a platform to see the students in all 
+                                                    their merit, and choose 
+                                                    to reward those who they see worthy.
+                                                </div>
+                                            </div>
+                                        
+                                    </div>
+                                            
                                     {/* <img class="d-block w-100" src="..." alt="First slide"></img> */}
                                 </div>
                                 

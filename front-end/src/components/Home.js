@@ -3,22 +3,12 @@ import Navbar from "./NavBar";
 import './custom.css'
 import logo from './images/tinkLogo.png'
 import team from './images/team.png';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 function Home(){
     return (
         
             <div className="bg1">
                 <div className="main-bg">
-                {/* <div className="rect">
-                        <div className="rect1"></div>
-                        <div className="rect2"></div>
-                        <div className="in-rect" style={{margin:0}}>
-                            <div className="rect3" style={{marginBottom:0}}></div>
-                            <div className="rect4" style={{marginBottom:0}}></div>
-                        </div>
-                    </div> */}
-                    
                 </div>
                 <div >
                         <div className="round-logo">

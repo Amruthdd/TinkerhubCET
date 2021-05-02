@@ -1,9 +1,11 @@
 import React from 'react';
 import about from './images/aboutus.png'
+import {Link} from 'react-router-dom'
 
 function About(){
     return (
         <div className="about-main">
+            <Link to="/" style={{color:"#fff",margin:10}}>{"<"}Home</Link>
             <div className="page-title">About Us</div>
             <div className="container">
                 <div className="row">

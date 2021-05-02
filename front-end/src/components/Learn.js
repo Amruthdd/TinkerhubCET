@@ -1,17 +1,9 @@
-import React, {useState} from 'react';
-// import Modal from './Modal'
+import React from 'react';
 import {learnData} from './data';
 import 'react-responsive-modal/styles.css';
-import { Modal } from 'react-responsive-modal';
 
 
 function Learn(){
-
-    const [open, setOpen] = useState(false);
-
-    const onOpenModal = () => setOpen(true);
-    const onCloseModal = () => setOpen(false);
-   
 
     return (
      
