@@ -2,9 +2,9 @@ import React from 'react';
 
 function CopyRight(){
     return (
-        <div style={{paddingLeft:10, marginTop:5}}>
-            <h6>Copyright <b>TinkerHub-CET.</b> All Rights Reserved<br/>
-                Designed by Amruth DD
+        <div className="d-flex" style={{paddingLeft:10, marginTop:5}}>
+            <h6>&copy;Copyright <b>TinkerHub-CET.</b> All Rights Reserved<br/>
+                <span style={{color:"gray"}}>Designed by </span>Amruth DD
             </h6>
         </div>
     );

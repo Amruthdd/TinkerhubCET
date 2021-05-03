@@ -307,6 +307,9 @@ background: #ffffff;
     justify-content: center;
 
 }
+.event{
+    display: none;
+}
 .poster{
     width: 300px;
     height: 300px;
@@ -642,6 +645,12 @@ input[type=email], select, textarea {
     }
     .dis-non{
         display: none;
+    }
+    .event{
+        display: block;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 10%;
     }
     .poster{
         width: 60vw;

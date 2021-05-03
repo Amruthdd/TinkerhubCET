@@ -20,6 +20,7 @@ function Home(){
                 <div className="home-title">
                     <h1>Tinker<span style={{color:"#000"}}>Hub CET</span></h1>
                     
+                    
                 </div>
                 
                 <div className="home-content-qt">

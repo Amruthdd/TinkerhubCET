@@ -1,11 +1,13 @@
 import React from 'react';
 import {eventData} from './data';
 import p1 from './images/p1.jpeg';
+import p2 from './images/event.png'
 
 function Events(){
     return (
         <div className="events-main">
             <div className="page-title" >Events</div>
+            <img src={p2} alt="p2" className="event"></img>
             <div className="init-box car-width" >
                 <div className="" >
                     <div id="carouselExampleControls" class="carousel slide carou-col " data-ride="carousel" >
