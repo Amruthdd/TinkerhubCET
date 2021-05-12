@@ -313,7 +313,25 @@ background: #ffffff;
 .poster{
     width: 300px;
     height: 300px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
 }
+.date{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    /* background-color: #215b67; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    padding: 0 10px ;
+}
+
+
+
 .carou-col{
     display: flex;
     flex-direction: row;
@@ -341,7 +359,7 @@ background: #ffffff;
 .car-inn{
     background: rgba(196, 196, 196, 0.5);
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -639,9 +657,8 @@ input[type=email], select, textarea {
         font-size: 0.8em;
     }
     .car-inn{
-        height: 83vw;
-        
-        
+        height: 95vw;
+  
     }
     .dis-non{
         display: none;
@@ -655,6 +672,10 @@ input[type=email], select, textarea {
     .poster{
         width: 60vw;
         height: 65vw;
+    }
+    .date{
+        width: 60vw;
+        font-size: 15px;
     }
    
     /* Contacts */

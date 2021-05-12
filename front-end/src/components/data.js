@@ -3,6 +3,7 @@ import stim2 from "./images/hackthon_2.jpeg";
 import stim3 from "./images/vishnu.jpeg";
 import stim4 from "./images/sudev.jpeg";
 import stim5 from "./images/nandanasree.jpeg";
+import p1 from './images/p1.jpeg';
 
 
 export const initData = [
@@ -39,15 +40,24 @@ export const initData = [
   export const eventData = [
     {
       title:"Tech Bites",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"2 May 2021",
+      time:"07:00PM"
     },
     {
       title:"Heyy",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"6 May 2021",
+      time:"07:00PM"
     },
     {
       title:"Tink Day",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"10 May 2021",
+      time:"07:00PM"
     }
   ]
 
