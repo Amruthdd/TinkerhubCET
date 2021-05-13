@@ -7,6 +7,8 @@ import athena from "./images/athena.jpg"
 import amruth from "./images/amruth.jpg"
 import harisha from "./images/harisha.jpeg"
 import nmpi from './images/nmpi.jpeg'
+import ajay from './images/ajay.jpeg'
+import ankitha from './images/ankitha.jpeg'
 import p1 from './images/p1.jpeg';
 
 
@@ -148,12 +150,12 @@ export const initData = [
       id:7,
       title:"Mentor",
       name:"Ajay Krishna KV",
-      img:{stim1}
+      img:{ajay}
     },
     {
       id:8,
       title:"Mentor",
       name:"Ankitha Jazy",
-      img:{stim1}
+      img:{ankitha}
     },
   ]
