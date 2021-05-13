@@ -41,7 +41,7 @@ function Test(){
 
     return (
 
-        <div className="event">
+        <div className="test">
             <div className="container">
                 <ReactMarkdown remarkPlugins={[gfm]} children={markDown} />
             </div>        

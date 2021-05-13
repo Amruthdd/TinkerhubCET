@@ -3,7 +3,7 @@ import About from "./components/pages/about-page/About";
 import Test from "./components/pages/test-page/Test";
 import './components/pages/home-page/custom.css';
 import Index from "./components/pages/home-page/Index";
-import Events from "./components/pages/test-page/Events";
+import EventDetails from "./components/pages/test-page/EventDetails";
 
 
 
@@ -16,7 +16,7 @@ function App() {
             {/* <Route path='/login' component={Goals} /> */}
             <Route path='/about' component={About} />
             <Route path='/test' component={Test} />
-            <Route path='/events' component={Events} />
+            <Route path='/eventDetails' component={EventDetails} />
            </Switch>
         </BrowserRouter>
   );

@@ -11,7 +11,7 @@ import {
 
 
 
-function Events(){
+function EventDetails(){
 
     return (
         <Router>
@@ -39,4 +39,4 @@ function Events(){
 }
 
 
-export default Events;
+export default EventDetails;

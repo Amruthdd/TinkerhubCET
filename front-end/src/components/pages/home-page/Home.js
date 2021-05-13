@@ -10,15 +10,6 @@ function Home(){
         
             <div className="bg1">
                 <div className="main-bg">
-                {/* <div className="rect">
-                        <div className="rect1"></div>
-                        <div className="rect2"></div>
-                        <div className="in-rect" style={{margin:0}}>
-                            <div className="rect3" style={{marginBottom:0}}></div>
-                            <div className="rect4" style={{marginBottom:0}}></div>
-                        </div>
-                    </div> */}
-                    
                 </div>
                 <div >
                         <div className="round-logo">
@@ -29,6 +20,11 @@ function Home(){
                 <Navbar/>
                 <div className="home-title">
                     <h1>Tinker<span style={{color:"#000"}}>Hub CET</span></h1>
+                    <div className="sub-name">
+                        Official TinkerHub chapter of<br/>
+                         College of Engineering, Trivandrum
+                    </div>
+                    
                     
                 </div>
                 
@@ -37,9 +33,13 @@ function Home(){
                     that it is a community for all, with absolutely<br/>
                     no barriers to entry.”
                 </div>
-                
-              
-                 
+                <a 
+                    href="https://tinyurl.com/tinkerhubcet" 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="join-btn">
+                        Join Us
+                </a>     
             </div>
            
             
