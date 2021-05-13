@@ -134,7 +134,7 @@ background: #ffffff;
 /* About Us */
 .about-main{
     background-color: #2a3d45;
-    padding: 3%;
+    padding: 5%;
 }
 .abt-vector img{
     height: 70vh;
@@ -157,6 +157,7 @@ background: #ffffff;
     color: #fff;
     font-weight: 700;
 }
+
 .team-box{
     display: flex;
     text-align: left;
@@ -642,11 +643,17 @@ input[type=email], select, textarea {
     }
     /* About */
     .abt-vector img{
-        height: 60vh;
+        height: 90vw;
         width: 90vw;
     }
     .team-container{
-        margin-left: 6%;
+        padding: 0;
+        width: 90vw;   
+    }
+    .t-box{
+        padding: 0;
+        display: flex;
+        justify-content: center;
     }
     .team-box{
         width: 80vw;

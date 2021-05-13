@@ -33,7 +33,7 @@ function About(){
                 <div className="row">
                 {teamData.map((data,key) =>{
                     return(
-                        <div className="col-xl-3 col-md-4">
+                        <div className="t-box col-xl-3 col-md-4">
                             <div className="team-box">
                                 <img
                                     src={data.img[Object.keys(data.img)[0]]}
