@@ -2,7 +2,14 @@ import stim1 from "../../images/hackthon_1.jpeg";
 import stim2 from "../../images/hackthon_2.jpeg";
 import stim3 from "../../images/vishnu.jpeg";
 import stim4 from "../../images/sudev.jpeg";
-
+import stim5 from "../../images/nandanasree.jpeg";
+import athena from "../../images/athena.jpg"
+import amruth from "../../images/amruth.jpg"
+import harisha from "../../images/harisha.jpeg"
+import nmpi from '../../images/nmpi.jpeg'
+import ajay from '../../images/ajay.jpeg'
+import ankitha from '../../images/ankitha.jpeg'
+import p1 from '../../images/p1.jpeg';
 
 export const initData = [
     // {
@@ -38,15 +45,24 @@ export const initData = [
   export const eventData = [
     {
       title:"Tech Bites",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"2 May 2021",
+      time:"07:00PM"
     },
     {
       title:"Heyy",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"6 May 2021",
+      time:"07:00PM"
     },
     {
       title:"Tink Day",
-      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy."
+      desc:"Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.Being a community driven platform, anyone from anywhere will be exposed to all the internship opportunities that are out there. Organisations can use it as a platform to see the students in all their merit, and choose to reward those who they see worthy.",
+      img:{p1},
+      date:"10 May 2021",
+      time:"07:00PM"
     }
   ]
 
@@ -79,7 +95,66 @@ export const initData = [
       title:"Meet Microsoft Learn Campus Ambassador",
       names:[" Sudev Suresh Sreedevi "],
       img:{stim4},
-      desc:"... Staying curious of emerging technologies and trying my best to keep up with it, without losing passion, really helped me to achieve this. The selection process required me to have a mindset to share and spread knowledge, and it really tested my passion. The program did consider my GitHub, LinkedIn, Tech Blogs I wrote and other social media accounts. Every small project, no matter how small or silly (as it may seem to us) actually counts as an effort we are putting to learn better things...."
+      desc:"'... Staying curious of emerging technologies and trying my best to keep up with it, without losing passion, really helped me to achieve this. The selection process required me to have a mindset to share and spread knowledge, and it really tested my passion. The program did consider my GitHub, LinkedIn, Tech Blogs I wrote and other social media accounts. Every small project, no matter how small or silly (as it may seem to us) actually counts as an effort we are putting to learn better things...'"
+
+    },
+    {
+      id:5,
+      title:"Meet intern at purplle.com",
+      names:[" Nandana Sreeraj "],
+      img:{stim5},
+      desc:"'... During the first 3 semesters of my CS engineering, I had no idea about what Machine Learning or Web development was. The turnover in my life was lockdown.   Slowly, I started liking programming. I started learning machine learning on my own...'"
 
     }
+  ]
+
+  export const teamData = [
+    {
+      id:1,
+      title:"Chairperson",
+      name:"K Harishankar",
+      img:{harisha}
+    },
+    {
+      id:2,
+      title:"Vice Chairperson",
+      name:"Vishnu Prakash",
+      img:{stim3}
+    },
+    {
+      id:3,
+      title:"Secretary",
+      name:"Nanda Kishor M",
+      img:{nmpi}
+    },
+    {
+      id:4,
+      title:"Design Lead",
+      name:"Sudev SS",
+      img:{stim4}
+    },
+    {
+      id:5,
+      title:"Web Master",
+      name:"Amruth DD",
+      img:{amruth}
+    },
+    {
+      id:6,
+      title:"Women-in-Teach Lead",
+      name:"Atheena R",
+      img:{athena}
+    },
+    {
+      id:7,
+      title:"Mentor",
+      name:"Ajay Krishna KV",
+      img:{ajay}
+    },
+    {
+      id:8,
+      title:"Mentor",
+      name:"Ankitha Jazy",
+      img:{ankitha}
+    },
   ]

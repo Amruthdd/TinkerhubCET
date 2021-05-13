@@ -16,6 +16,7 @@ body{
     font-weight: bold;
     color: #ffffff;
     padding-top: 20px;
+    
 }
 
 
@@ -55,8 +56,13 @@ body{
     font-style: italic;
     font-weight: normal;
     font-size: 20px;
-    top:30%;
+    top:40%;
     left:14%;
+}
+.sub-name{
+    position: absolute;
+    left: 2%;
+    color: rgba(0, 0, 0, 0.632);
 }
 .home-content-brf{
     position: absolute;
@@ -106,11 +112,29 @@ background: #ffffff;
 
     position: absolute;
 }
+.join-btn{
+    position: absolute;
+    top:65%;
+    left: 20%;
+    background-color:  #dc3a2b;
+    color: #fff;
+    border-radius: 25px;
+    border-width: 0px;
+    font-size: 20px;
+    padding: 8px;
+    width: 150px;
+    text-align: center;
+    
+}
+.join-btn:hover{
+    background-color: #DF5042;
+    text-decoration: none;
+    color: #fff;
+}
 /* About Us */
 .about-main{
     background-color: #2a3d45;
-    padding-left: 2%;
-    padding-right: 5%;
+    padding: 5%;
 }
 .abt-vector img{
     height: 70vh;
@@ -120,6 +144,44 @@ background: #ffffff;
     font-size: 20px;
     color:#fff;
     padding: 35px;
+}
+.team-container{
+    display: flex;
+    width: 100vw;
+    padding: 2% 7% 0 0;
+    justify-content: center;
+}
+.team-title{
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.team-box{
+    display: flex;
+    text-align: left;
+    padding-right: 10px;
+    background-color: rgba(255, 255, 255, 0.238);
+    margin: 10px 5px;
+    border-radius: 70px;
+    height: 130px;
+    color: #fff;
+}
+.team-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+   
+}
+.team-mem{
+    justify-content: center;
+    padding: 10px;
+    align-self: center;
+}
+.team-name{
+    font-weight: 700;
+    font-size: 18px;
 }
 /* Navbar */
 .navbar{
@@ -168,7 +230,7 @@ background: #ffffff;
 }
 
 .under-line{
-    width: 50vw;
+    width: 40vw;
     height: 5px;
     background-color: #fff;
     margin-top: 10px;
@@ -182,6 +244,7 @@ background: #ffffff;
     font-weight: bold;
     margin-top: -19px;
     padding:0px 5px 0px 5px;
+    
 }
 .goal-box{
     display: flex;
@@ -196,7 +259,7 @@ background: #ffffff;
     position: relative;
 }
 .goal-vector img{
-    height: 50vh;
+    height: 360px;
     width: 40vw;
     position: relative;
    
@@ -286,14 +349,38 @@ background: #ffffff;
     justify-content: center;
 
 }
+.event{
+    display: none;
+}
+.poster{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+}
+.date{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(71, 71, 71);
+    /* background-color: #215b67; */
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    padding: 0 10px ;
+}
+
+
+
 .carou-col{
     display: flex;
     flex-direction: row;
 }
 .caro-arrow{
     position: relative;
-    align-self: center;
-    
+    align-self: center;  
 }
 .car-a{
     font-size: 80px;
@@ -303,6 +390,7 @@ background: #ffffff;
 .car-box{
     /* background: rgba(196, 196, 196, 0.5);
     border-radius: 20px; */
+    margin: 2% 0;
     padding: 30px 10px;
     color: #1C5663;      
 }
@@ -313,7 +401,7 @@ background: #ffffff;
 .car-inn{
     background: rgba(196, 196, 196, 0.5);
     border-radius: 20px;
-    height: 400px;
+    height: 500px;
 }
 
 
@@ -521,10 +609,7 @@ input[type=email], select, textarea {
 
     /* Home */
     .home-content-qt{
-        position: absolute;
-        font-size: 15px;
-        top:22%;
-        left:14%;
+        display: none;
         
     }
     .home-content-brf{
@@ -535,6 +620,10 @@ input[type=email], select, textarea {
         left:20%;
         
         width: 60%;
+    }
+    .join-btn{
+        top:72%;
+        left: 30%;
     }
     .round-ppl{
         position: absolute;
@@ -554,8 +643,22 @@ input[type=email], select, textarea {
     }
     /* About */
     .abt-vector img{
-        height: 60vh;
+        height: 90vw;
         width: 90vw;
+    }
+    .team-container{
+        padding: 0;
+        width: 90vw;   
+    }
+    .t-box{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .team-box{
+        width: 80vw;
+        height: 130px;
+        padding: 0;
     }
     /* Goals */
     .goal-vector img{
@@ -567,6 +670,9 @@ input[type=email], select, textarea {
 
         margin-top: 30px;
         padding-left: 40px;
+    }
+    .under-line{
+        width: 50vw;
     }
     /* social */
     .social-main{
@@ -601,9 +707,30 @@ input[type=email], select, textarea {
     }
     /* Events */
     .car-box{
-       
         font-size: 0.8em;
     }
+    .car-inn{
+        height: 95vw;
+  
+    }
+    .dis-non{
+        display: none;
+    }
+    .event{
+        display: block;
+        width: 80vw;
+        height: 80vw;
+        margin-left: 10%;
+    }
+    .poster{
+        width: 60vw;
+        height: 65vw;
+    }
+    .date{
+        width: 60vw;
+        font-size: 15px;
+    }
+   
     /* Contacts */
     .contact-img{
         width: 80vw;
@@ -629,12 +756,15 @@ input[type=email], select, textarea {
         border-radius: 0px 30px 30px 0px;
     }
     /* home */
+    .home-title{
+        top:18%
+    }
     .home-content-qt{
         position: absolute;
         font-style: italic;
         font-weight: normal;
         font-size: 15px;
-        top:27%;
+        top:36%;
         left:15%;
         
     }
@@ -644,19 +774,18 @@ input[type=email], select, textarea {
         font-size: 15px;
         bottom:30%;
         left:14%;
-        
         width: 40%;
     }
     .round-ppl{
-        margin-top: 60px;
+        margin-top: 35px;
         border-radius: 100%;
         display: flex;
         justify-content: center;
         background: #ffffff;
     }
     .round-ppl img{
-        width: 300px;
-        height: 300px;
+        width: 320px;
+        height: 340px;
         border-radius: 100%;
     }
     .round-logo{

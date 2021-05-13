@@ -1,5 +1,4 @@
 import React from 'react';
-import "./test.css";
 import ReactMarkdown from "react-markdown";
 import gfm from 'remark-gfm'
 import { useEffect, useState } from 'react';
@@ -17,6 +16,7 @@ function Test(){
 
     const [markDown, setMarkDown] = useState('');
     let { id } = useParams();
+    console.log(id)
 
     useEffect(() => {
         if(id === "Hackathon"){
