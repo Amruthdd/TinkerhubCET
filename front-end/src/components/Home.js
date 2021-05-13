@@ -19,6 +19,10 @@ function Home(){
                 <Navbar/>
                 <div className="home-title">
                     <h1>Tinker<span style={{color:"#000"}}>Hub CET</span></h1>
+                    <div className="sub-name">
+                        Official TinkerHub chapter of<br/>
+                         College of Engineering, Trivandrum
+                    </div>
                     
                     
                 </div>

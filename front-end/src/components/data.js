@@ -3,6 +3,10 @@ import stim2 from "./images/hackthon_2.jpeg";
 import stim3 from "./images/vishnu.jpeg";
 import stim4 from "./images/sudev.jpeg";
 import stim5 from "./images/nandanasree.jpeg";
+import athena from "./images/athena.jpg"
+import amruth from "./images/amruth.jpg"
+import harisha from "./images/harisha.jpeg"
+import nmpi from './images/nmpi.jpeg'
 import p1 from './images/p1.jpeg';
 
 
@@ -101,4 +105,55 @@ export const initData = [
       desc:"'... During the first 3 semesters of my CS engineering, I had no idea about what Machine Learning or Web development was. The turnover in my life was lockdown.   Slowly, I started liking programming. I started learning machine learning on my own...'"
 
     }
+  ]
+
+  export const teamData = [
+    {
+      id:1,
+      title:"Chairperson",
+      name:"K Harishankar",
+      img:{harisha}
+    },
+    {
+      id:2,
+      title:"Vice Chairperson",
+      name:"Vishnu Prakash",
+      img:{stim3}
+    },
+    {
+      id:3,
+      title:"Secretary",
+      name:"Nanda Kishor M",
+      img:{nmpi}
+    },
+    {
+      id:4,
+      title:"Design Lead",
+      name:"Sudev SS",
+      img:{stim4}
+    },
+    {
+      id:5,
+      title:"Web Master",
+      name:"Amruth DD",
+      img:{amruth}
+    },
+    {
+      id:6,
+      title:"Women-in-Teach Lead",
+      name:"Atheena R",
+      img:{athena}
+    },
+    {
+      id:7,
+      title:"Mentor",
+      name:"Ajay Krishna KV",
+      img:{stim1}
+    },
+    {
+      id:8,
+      title:"Mentor",
+      name:"Ankitha Jazy",
+      img:{stim1}
+    },
   ]
