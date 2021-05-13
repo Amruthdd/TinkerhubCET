@@ -1,5 +1,5 @@
 import React from 'react';
-import support from "./images/support.png"
+import support from "../../images/support.png"
 import {initData} from './data'
 import "./custom.css";
 import 'aos';

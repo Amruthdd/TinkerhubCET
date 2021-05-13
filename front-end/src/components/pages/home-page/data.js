@@ -1,7 +1,7 @@
-import stim1 from "./images/hackthon_1.jpeg";
-import stim2 from "./images/hackthon_2.jpeg";
-import stim3 from "./images/vishnu.jpeg";
-import stim4 from "./images/sudev.jpeg";
+import stim1 from "../../images/hackthon_1.jpeg";
+import stim2 from "../../images/hackthon_2.jpeg";
+import stim3 from "../../images/vishnu.jpeg";
+import stim4 from "../../images/sudev.jpeg";
 
 
 export const initData = [

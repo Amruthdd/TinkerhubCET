@@ -19,7 +19,6 @@ function Index(){
             <Learn/>
             <Contact/>
             <CopyRight/>
-
             <Social/>
         </div>
     );

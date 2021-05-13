@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from "./NavBar";
+import Navbar from "../../NavBar";
 import './custom.css'
-import logo from './images/tinkLogo.png'
-import team from './images/team.png';
+import logo from '../../images/tinkLogo.png'
+import team from '../../images/team.png';
 import { Link, animateScroll as scroll } from "react-scroll";
 
 function Home(){

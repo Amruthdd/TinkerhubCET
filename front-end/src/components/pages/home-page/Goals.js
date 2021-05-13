@@ -1,5 +1,5 @@
 import React from 'react';
-import social from './images/social2.png'
+import social from '../../images/social2.png'
 import Aos from 'aos';
 
 function Goals(){

@@ -23,7 +23,7 @@ body{
 .main-bg{
     background-repeat: no-repeat;
     background-size: cover;
-    background: url('./images/tinkbg5.jpg');
+    background: url('../../images/tinkbg5.jpg');
     position: absolute;
     height: 781px;
     width: 1184px;
@@ -97,7 +97,7 @@ background: #ffffff;
 
 }
 .logo{
-    background: url('./images/tinkLogo.png');
+    background: url('../../images/tinkLogo.png');
     width: 100px;
     height: 100px;
     border-radius: 100%;

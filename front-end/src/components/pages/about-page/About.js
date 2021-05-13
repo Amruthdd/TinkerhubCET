@@ -1,5 +1,5 @@
 import React from 'react';
-import about from './images/aboutus.png'
+import about from '../../images/aboutus.png'
 
 function About(){
     return (
