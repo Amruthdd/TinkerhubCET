@@ -11,7 +11,6 @@ import ajay from '../../images/ajay.jpeg'
 import ankitha from '../../images/ankitha.jpeg'
 import p1 from '../../images/p1.jpeg';
 
-
 export const initData = [
     // {
     //   title:"Setup Internships",
