@@ -19,18 +19,18 @@ function EventDetails(){
     
             <ul>
               <li>
-                <Link to="/Townhall">Townhall</Link>
+                <Link to="/eventDetails/Townhall">Townhall</Link>
               </li>
               <li>
-                <Link to="/DevOps">DevOps</Link>
+                <Link to="/eventDetails/DevOps">DevOps</Link>
               </li>
               <li>
-                <Link to="/Hackathon">Hackathon</Link>
+                <Link to="/eventDetails/Hackathon">Hackathon</Link>
               </li>
             </ul>
     
             <Switch>
-              <Route path="/:id" children={<Test />} />
+              <Route path="/eventDetails/:id" children={<Test />} />
             </Switch>
           </div>
         </Router>
