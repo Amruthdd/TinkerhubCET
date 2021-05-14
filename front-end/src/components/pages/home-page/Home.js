@@ -4,7 +4,6 @@ import './custom.css'
 import logo from '../../images/tinkLogo.png'
 import team from '../../images/team.png';
 
-
 function Home(){
     return (
         

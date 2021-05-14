@@ -14,6 +14,10 @@ function NavBar(){
                 <Link to='/about' className='nav-link no-underline'>About</Link>
                 
             </div>
+            <div>
+                <Link to='/eventDetails/Townhall' className='nav-link no-underline'>Events</Link>
+                
+            </div>
             {/* <div>
                 <Link className='nav-link no-underline'>Contact</Link>
                 
