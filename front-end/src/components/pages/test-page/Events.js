@@ -14,10 +14,10 @@ function Events(){
 
     return (
         <Router>
-          <div>
-            <h2>Events</h2>
+          <div className="eve-head-main">
+            <h2 className="event-title">Events</h2>
     
-            <ul>
+            <ul className="eve-ul">
               <li>
                 <Link to="/Townhall">Townhall</Link>
               </li>
