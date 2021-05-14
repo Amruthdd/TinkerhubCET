@@ -13,7 +13,6 @@ import {
 function EventDetails(){
 
     return (
-        <Router>
           <div className="eve-head-main">
             <div style={{display:"flex",justifyContent:"space-between"}}>
               <h2 className="event-title">Events</h2>
@@ -24,28 +23,31 @@ function EventDetails(){
                 </svg>
               </Link>
             </div>
-            
-            
+         
+
+            <Router>
+              	
+        
+              	<ul className="eve-ul">
+					<li style={{backgroundColor:"#DF5042"}}>
+					<Link to="/eventDetails/Townhall" className="eve-link" >Townhall</Link>
+					</li>
+					<li style={{backgroundColor:"#F7B829"}}>
+					<Link to="/eventDetails/DevOps" className="eve-link">DevOps</Link>
+					</li>
+					<li style={{backgroundColor:"#7bb5f1"}}>
+					<Link to="/eventDetails/Hackathon" className="eve-link">Hackathon</Link>
+					</li>
+                </ul>
       
-            <ul className="eve-ul">
-              <li style={{backgroundColor:"#DF5042"}}>
-                <Link to="/eventDetails/Townhall" className="eve-link" >Townhall</Link>
-              </li>
-              <li style={{backgroundColor:"#F7B829"}}>
-                <Link to="/eventDetails/DevOps" className="eve-link">DevOps</Link>
-              </li>
-              <li style={{backgroundColor:"#7bb5f1"}}>
-                <Link to="/eventDetails/Hackathon" className="eve-link">Hackathon</Link>
-              </li>
-              
-            </ul>
-    
-            <Switch>
-              <Route path="/eventDetails/:id" children={<Test />} />
-            </Switch>
-          </div>
-        </Router>
-      );
+              	<Switch>
+                	<Route path="/eventDetails/:id" children={<Test />} />
+              	</Switch>
+
+            </Router>
+        </div>
+        
+    );
 }
 
 
