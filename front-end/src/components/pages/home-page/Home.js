@@ -11,13 +11,16 @@ function Home(){
                 <div className="main-bg">
                 </div>
                 <div >
-                        <div className="round-logo">
-                            <img src={logo} alt="helo " className="logo"></img>
-                        </div>
-                        <div className="round-ppl"><img src={team} alt="helo2"></img></div>
-                    </div>   
-                <Navbar/>
-                <div className="home-title">
+                    <div className="round-logo">
+                        <img src={logo} alt="helo " className="logo"></img>
+                    </div>
+                    <div className="round-ppl"><img src={team} alt="helo2"></img></div>
+                </div>
+                <div className="nav-pos">
+                    <Navbar/>
+                </div>   
+                
+                <div className="home-title" style={{zIndex:1}}>
                     <h1>Tinker<span style={{color:"#000"}}>Hub CET</span></h1>
                     <div className="sub-name">
                         Official TinkerHub chapter of<br/>

@@ -2,7 +2,7 @@
 import React from 'react';
 import Contact from './Contact';
 import CopyRight from './CopyRight';
-import Events from './Events';
+// import Events from './Events';
 import Goals from './Goals';
 import Home from './Home';
 import Initiative from './Initiative';
@@ -15,7 +15,7 @@ function Index(){
             <Home/>
             <Goals/>
             <Initiative/>
-            <Events/>
+            {/* <Events/> */}
             <Learn/>
             <Contact/>
             <CopyRight/>

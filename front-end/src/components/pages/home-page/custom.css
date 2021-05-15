@@ -4,7 +4,9 @@ html {
 body{
     overflow-x:hidden;
     font-family: 'Raleway', sans-serif;
+    
 }
+button:focus {outline:0;}
 .index-main{
     overflow: hidden;
     width: 100vw;
@@ -184,7 +186,7 @@ background: #ffffff;
     font-size: 18px;
 }
 /* Navbar */
-.navbar{
+.navbar-main{
     
     display:flex;
     float: left;
@@ -204,11 +206,16 @@ background: #ffffff;
     height: 4px;
     background: #05B9C8;
     position: absolute;
-    left: 48px;
+    left: 40px;
     margin-top: 0px;
 }
 .nav-link:hover{
     color:#000;
+}
+.nav-pos{
+    position: absolute;
+    z-index: 10;
+    margin-left: 5%;
 }
 
 
@@ -651,7 +658,35 @@ input[type=email], select, textarea {
 /* mobile */
 
 @media (max-width: 576px) { 
-
+    /* Navbar */
+    .nav-bg{
+        /* background-color: rgb(196, 56, 56); */
+        border-radius: 10px;
+    }
+    
+    .navbar hr{
+        left:32px
+    }
+    .nav-home{
+        background-color: #DF5042;
+        margin-top: 5px;
+        height: 45px;
+        border-radius: 15px;
+        
+    }
+    .nav-abt{
+        background-color: #F7B829;
+        height: 45px;
+        border-radius: 15px;
+    }
+    .nav-eve{
+        background-color: #7bb5f1;
+        height: 45px;
+        border-radius: 15px;
+    }
+    .nav-it{
+        margin-top: 14px;
+    }
     /* Home */
     .home-content-qt{
         display: none;
@@ -672,7 +707,7 @@ input[type=email], select, textarea {
     }
     .round-ppl{
         position: absolute;
-    width: 250px;
+    width: 260px;
     height: 250px;
     border-radius: 100%;
     top:25%;
@@ -810,7 +845,8 @@ input[type=email], select, textarea {
     }
     /* home */
     .home-title{
-        top:18%
+        top:18%;
+        left: 14%;
     }
     .home-content-qt{
         position: absolute;
