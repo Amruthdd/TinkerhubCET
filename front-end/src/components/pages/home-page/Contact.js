@@ -6,7 +6,7 @@ function Contact(){
     return (
         <div className="contact-main">
             <div className="page-title" >Contact Us</div>
-            <div className="container">
+            <div className="container-in">
                 <div className="row">
                     <div className="col-xl-6 col-md-6">
                            <img src={contact} className="contact-img" alt="contact"></img>

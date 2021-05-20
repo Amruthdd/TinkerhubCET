@@ -1,16 +1,15 @@
-# Townhall
----------
+# TownHall CET
+**Date**: 2/5/2021 7:00 PM \
+**Platform**: AirMeet \
+**Guest** : Nandana Sreeraj, ML Intern at [Purpllee](2www.purpllee.com) \
+**Host** : Ankitha Jazy 
 
-* Date: 9/7/22
-* Time: 1pm
-* Participants: 50
+-----
 
+The event was focused on freshers and Students who were seeking inspiration for their journey. Nandana Sreeraj, 3rd year computer science student who is a great example of utilizing this time productively as she had a great learning curve last year and got Internship from Purplle.com in Machine Learning. 
 
-Semper risus in hendrerit gravida. Morbi tristique senectus et netus et malesuada fames ac. Suspendisse interdum consectetur libero id faucibus nisl. Duis at tellus at urna. Facilisis leo vel fringilla est ullamcorper eget. In cursus turpis massa tincidunt dui ut ornare. Sed augue lacus viverra vitae congue eu consequat ac. Metus aliquam eleifend mi in nulla posuere. Euismod lacinia at quis risus sed vulputate odio ut enim. Volutpat commodo sed egestas egestas. Pretium viverra suspendisse potenti nullam ac tortor vitae. Gravida neque convallis a cras semper auctor. Sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis. Blandit aliquam etiam erat velit scelerisque in dictum. Facilisis sed odio morbi quis commodo odio. Ac turpis egestas sed tempus urna et. Mauris pharetra et ultrices neque ornare aenean euismod. Ac tortor vitae purus faucibus. Ac tortor vitae purus faucibus ornare suspendisse sed.
+She shared her experiences and journey. She asnwered some questions we had including resume and keeping up with new tech and architectures in Machine Learning. After an insightful interview with her games were started for building interactions with attendees. 
 
-Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit. Commodo elit at imperdiet dui accumsan sit amet nulla. Eget nullam non nisi est. Metus dictum at tempor commodo ullamcorper. Suspendisse in est ante in nibh. Ullamcorper morbi tincidunt ornare massa. Amet commodo nulla facilisi nullam vehicula ipsum a. Lobortis elementum nibh tellus molestie nunc non. Vel eros donec ac odio tempor orci. Euismod elementum nisi quis eleifend quam. Vel pretium lectus quam id.
+At last Tables in AirMeet were used for Networking and the event ended on a great note regarding Mental Health and Building skills by our Host Ankitha.
 
-Odio euismod lacinia at quis risus sed vulputate odio ut. Morbi tempus iaculis urna id. Duis tristique sollicitudin nibh sit amet. Id diam maecenas ultricies mi eget mauris pharetra et ultrices. Viverra nibh cras pulvinar mattis nunc. Aenean et tortor at risus viverra. Nullam eget felis eget nunc lobortis. Facilisi etiam dignissim diam quis enim lobortis. Tellus molestie nunc non blandit massa enim. Amet nulla facilisi morbi tempus iaculis urna id volutpat lacus. Etiam erat velit scelerisque in dictum non consectetur. In fermentum et sollicitudin ac orci phasellus egestas tellus. A condimentum vitae sapien pellentesque. Maecenas ultricies mi eget mauris pharetra et. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. At in tellus integer feugiat. Aliquam sem et tortor consequat id porta.
-
-
-A paragraph with *emphasis* and **strong importance**.
+-----

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../../NavBar";
 import './custom.css'
-import logo from '../../images/tinkLogo.png'
+import logo from '../../images/tinkerhub-logo.png'
 import team from '../../images/team.png';
 
 function Home(){
