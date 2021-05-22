@@ -1,7 +1,7 @@
 # TownHall CET
 **Date**: 2/5/2021 7:00 PM \
 **Platform**: AirMeet \
-**Guest** : Nandana Sreeraj, ML Intern at [Purpllee](2www.purpllee.com) \
+**Guest** : Nandana Sreeraj, ML Intern at [Purpllee](https://www.purplle.com/) 
 **Host** : Ankitha Jazy 
 
 -----
