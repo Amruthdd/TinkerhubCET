@@ -1,6 +1,6 @@
 import React from 'react';
 import {eventData} from './data';
-import p1 from '../../images/p1.jpeg';
+import p1 from '../../images/p1.jpg';
 
 function Events(){
     return (

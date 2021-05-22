@@ -1,15 +1,15 @@
-import stim1 from "../../images/hackthon_1.jpeg";
-import stim2 from "../../images/hackthon_2.jpeg";
-import stim3 from "../../images/vishnu.jpeg";
-import stim4 from "../../images/sudev.jpeg";
-import stim5 from "../../images/nandanasree.jpeg";
+import stim1 from "../../images/hackthon_1.jpg";
+import stim2 from "../../images/hackthon_2.jpg";
+import stim3 from "../../images/vishnu.jpg";
+import stim4 from "../../images/sudev.jpg";
+import stim5 from "../../images/nandanasree.jpg";
 import athena from "../../images/athena.jpg"
 import amruth from "../../images/amruth.jpg"
-import harisha from "../../images/harisha.jpeg"
-import nmpi from '../../images/nmpi.jpeg'
-import ajay from '../../images/ajay.jpeg'
-import ankitha from '../../images/ankitha.jpeg'
-import p1 from '../../images/p1.jpeg';
+import harisha from "../../images/harisha.jpg"
+import nmpi from '../../images/nmpi.jpg'
+import ajay from '../../images/ajay.jpg'
+import ankitha from '../../images/ankitha.jpg'
+import p1 from '../../images/p1.jpg';
 
 export const initData = [
     // {
