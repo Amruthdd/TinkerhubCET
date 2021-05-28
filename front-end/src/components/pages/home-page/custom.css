@@ -387,6 +387,8 @@ background: #ffffff;
 .eve-link{
     color: #fff;
     font-weight: 600;
+    width: 100%;
+    text-align: center;
 }
 .eve-link:hover{
     text-decoration: none;
